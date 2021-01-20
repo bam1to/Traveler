@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Nexa Black";
+  src: url("../fonts/NexaBlack.eot");
+  src: url("../fonts/NexaBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/NexaBlack.woff") format("woff"), url("../fonts/NexaBlack.woff2") format("woff2"), url("../fonts/NexaBlack.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Now Micro";
+  src: url("../fonts/HelveticaNowMicro-Regular.eot");
+  src: url("../fonts/HelveticaNowMicro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNowMicro-Regular.woff") format("woff"), url("../fonts/HelveticaNowMicro-Regular.woff2") format("woff2"), url("../fonts/HelveticaNowMicro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nexa Book";
+  src: url("../fonts/Nexa-Book.eot");
+  src: url("../fonts/Nexa-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Nexa-Book.woff") format("woff"), url("../fonts/Nexa-Book.woff2") format("woff2"), url("../fonts/Nexa-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nexa Regular";
+  src: url("../fonts/NexaRegular.eot");
+  src: url("../fonts/NexaRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/NexaRegular.woff") format("woff"), url("../fonts/NexaRegular.woff2") format("woff2"), url("../fonts/NexaRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("../fonts/Nexa-XBold.eot");
+  src: url("../fonts/Nexa-XBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Nexa-XBold.woff") format("woff"), url("../fonts/Nexa-XBold.woff2") format("woff2"), url("../fonts/Nexa-XBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PT Sans Bold";
+  src: url("../fonts/PTSans-Bold.eot");
+  src: url("../fonts/PTSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans-Bold.woff") format("woff"), url("../fonts/PTSans-Bold.woff2") format("woff2"), url("../fonts/PTSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PT Sans Italic";
+  src: url("../fonts/PTSans-Italic.eot");
+  src: url("../fonts/PTSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans-Italic.woff") format("woff"), url("../fonts/PTSans-Italic.woff2") format("woff2"), url("../fonts/PTSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PT Sans Regular";
+  src: url("../fonts/PTSans-Regular.eot");
+  src: url("../fonts/PTSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans-Regular.woff") format("woff"), url("../fonts/PTSans-Regular.woff2") format("woff2"), url("../fonts/PTSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quicksand Bold";
+  src: url("../fonts/Quicksand-Bold.eot");
+  src: url("../fonts/Quicksand-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Quicksand-Bold.woff") format("woff"), url("../fonts/Quicksand-Bold.woff2") format("woff2"), url("../fonts/Quicksand-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

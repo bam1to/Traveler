@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+//mixin for responsive font implementation
+$maxWidth: 1440;
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $maxWidth: $maxWidth - 320;
+  font-size: calc(
+    #{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth})
+  );
+}
+
+.header__row {
+  padding-top: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 0;
+  &__container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.title {
+  &__title {
+    font-family: "Nexa Black";
+    @include adaptiv-font(39.6, 28);
+    line-height: 35px;
+    margin-bottom: 0;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #8c4fbe, #56159a);
+  }
+  &__subtitle {
+    font-family: "PT Sans Italic";
+    color: #7d7d7d;
+  }
+}
+
+.dropdown {
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__link {
+    position: relative;
+    text-decoration: none;
+    color: #d5d5d5;
+    text-align: center;
+    margin-right: 10%;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -35%;
+      width: 1px;
+      height: 100%;
+      background-color: #c7c7c7;
+    }
+    &:hover {
+      color: #c9c9c9;
+    }
+    img {
+      margin-left: 5px;
+    }
+  }
+}
+
+.search {
+  padding-right: 0;
+  &__form {
+    padding-right: 40px;
+    position: relative;
+    height: 46px;
+    border-radius: 0;
+    font-family: "Nexa Bold";
+    font-size: 12px;
+    color: #959595;
+    background-image: url('../img/navbar/clock_.svg');
+    background-repeat: no-repeat;
+    background-position: right 0.6em top 0.9em;
+  }
+}
+
+.navbar {
+    height: 190px;
+  $colors: (
+    1: #6017a3,
+    2: #701dbb,
+    3: #8038c2,
+    4: #a34ff0,
+    5: #8038c2,
+    6: #701dbb,
+  );
+  @each $number, $color in $colors {
+    .nav_b#{$number} {
+      border-bottom: $color 5px solid;
+    }
+  }
+  &__section {
+    font-family: "PT Sans Bold";
+    color: #707070;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px -3px rgba($color: #ebebeb, $alpha: 1);
+    &:hover {
+        border-bottom-width: 13px;
+        height: 130px;
+        margin-bottom: 17px;
+        box-shadow: 1px 1px 10px rgba($color: #ebebeb, $alpha: 1);
+    }
+  }
+  
+}

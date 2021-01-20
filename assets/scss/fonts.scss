@@ -1,0 +1,24 @@
+@mixin fonts($name, $ffName, $weight, $style) {
+  @font-face {
+    font-family: $ffName;
+    src: url("../fonts/#{$name}.eot");
+    src: url("../fonts/#{$name}.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/#{$name}.woff") format("woff"),
+      url("../fonts/#{$name}.woff2") format("woff2"),
+      url("../fonts/#{$name}.ttf") format("truetype");
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+@include fonts("NexaBlack", "Nexa Black", normal, normal);
+@include fonts("HelveticaNowMicro-Regular", "Helvetica Now Micro", 400, normal);
+@include fonts("Nexa-Book", "Nexa Book", normal, normal);
+@include fonts("NexaRegular", "Nexa Regular", normal, normal);
+@include fonts("Nexa-XBold", "Nexa Bold", normal, normal);
+@include fonts("PTSans-Bold", "PT Sans Bold", normal, normal);
+@include fonts("PTSans-Italic", "PT Sans Italic", normal, normal);
+@include fonts("PTSans-Regular", "PT Sans Regular", normal, normal);
+@include fonts("Quicksand-Bold", "Quicksand Bold", normal, normal);
+
+

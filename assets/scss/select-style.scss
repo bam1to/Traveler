@@ -1,0 +1,20 @@
+.select {
+  font-family: "Nexa Bold";
+  border: none;
+  padding: 0 10px 0 0;
+  position: relative;
+  color: #6324a1;
+  border-radius: 0;
+  box-shadow: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: url("../img/navbar/font awesome/chevron-up-solid.svg") no-repeat
+      97% 25%,
+    url("../img/navbar/font awesome/chevron-down-solid.svg") no-repeat 97% 80%;
+  fill: #6324a1;
+  font-size: 0.8em;
+  width: 25%;
+  max-width: 200px;
+  background-size: 0.65em auto;
+}
